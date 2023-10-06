@@ -1,0 +1,51 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+*{
+    padding: 0px; margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.fa.fa-cutlery{
+    font-size: 30px;
+}
+header{
+    background-image: linear-gradient(140deg,red,blue);
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+
+}
+#flex{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    width: 30%;
+  
+}
+.one{
+    display: flex;
+    margin: 55px;
+    color:wheat;
+}
+
+.fixed{
+    font-size: 50px;
+    position: fixed;
+    top: 20px;
+   
+}
+#bottom{
+    width: 100%;
+    height: 50vh;
+}
